@@ -35,7 +35,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "flaskwebapps"
+  AZURE_CONTAINER_REGISTRY: "velansecr"
   CONTAINER_NAME: "webapp1"
   AZ_RESOURCE_GROUP: "webapps"
   AZ_AKS_CLUSTER: "webapps"
