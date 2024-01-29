@@ -31,7 +31,7 @@ name: Deploy webapp to AKS Cluster
 
 on:
   push:
-    branches: [ "master", "testing_azure" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 env:
